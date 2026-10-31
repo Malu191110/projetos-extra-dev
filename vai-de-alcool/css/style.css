@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+/* === GERAL === */
+
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+    font-family: "Fredoka", sans-serif;
+}
+
+main{
+    margin: 4vw 24vw;
+}
+
+.card{
+    margin: 2vw;
+    padding: 2vw;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.linha{
+    margin: 2vw 0;
+    border: none;
+    border-top: 1px solid rgb(172, 172, 172);
+    width: 100%;
+}
+
+/* === TOPO ===  */
+
+h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 1vw;
+}
+
+h2{
+    color: gray;
+    font-size: 0.6rem;
+    margin: 0 1vw 2vw 1vw;
+}
+
+/* === FORM === */
+
+form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+form p{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin: 1vw 2vw;
+    font-size: 0.6rem;
+}
+
+input{
+    margin: 0 2vw;
+    padding: 8px;
+    font-size: 0.6rem;
+    border: 1px solid gray;
+}
+
+button{
+    margin: 2vw;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(1, 182, 1);
+    font-size: 1rem;
+}
+
+/* === final === */
+
+.final p{
+    color: gray;
+    font-size: 0.6rem;
+}
+
+.final h3{
+    font-size: 1rem;
+    margin: 1vw 0;
+}
