@@ -4,6 +4,7 @@ function calculo() {
   const precoGasolina = parseFloat(document.getElementById("gasolina").value);
   const precoAlcool = parseFloat(document.getElementById("alcool").value);
 
+
   if (isNaN(precoGasolina)) {
     msgResultado.innerHTML = "Preço da Gasolina inválido";
     return;
@@ -12,7 +13,7 @@ function calculo() {
     msgResultado.innerHTML = "Preço do Alcool inválido";
     return;
   }
-
+   
   if (precoAlcool / precoGasolina >= 0.7) 
     msgResultado.innerHTML = "Abasteça com Gasolina";
    else 

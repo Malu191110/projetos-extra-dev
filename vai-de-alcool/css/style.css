@@ -10,11 +10,7 @@ html{
 }
 
 main{
-    margin: 4vw 24vw;
-}
-
-.card{
-    margin: 2vw;
+    margin: 6vw 30vw;
     padding: 2vw;
     border: 2px solid green;
     text-align: center;
@@ -30,15 +26,24 @@ main{
 /* === TOPO ===  */
 
 h1{
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1rem;
     font-weight: 500;
     margin: 0 1vw;
 }
 
 h2{
+    text-align: center;
     color: gray;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin: 0 1vw 2vw 1vw;
+}
+
+.melhor{
+    text-align: center;
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 /* === FORM === */
@@ -56,32 +61,41 @@ form p{
 
 label{
     margin: 1vw 2vw;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
 input{
     margin: 0 2vw;
     padding: 8px;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     border: 1px solid gray;
 }
 
 button{
-    margin: 2vw;
-    padding: 8px 16px;
+    margin: 2vw 2vw 1vw 2vw;
+    padding: 12px 16px;
+    border-radius: 8px;
     color: white;
-    background-color: rgb(1, 182, 1);
-    font-size: 1rem;
+    background-color: rgba(0, 158, 0, 0.849);
+    font-size: 0.6rem;
 }
 
 /* === final === */
 
-.final p{
-    color: gray;
-    font-size: 0.6rem;
+.final{
+    background-color: aliceblue;
+    padding: 2vw;
+    border-radius: 8px;
 }
 
 .final h3{
     font-size: 1rem;
     margin: 1vw 0;
 }
+
+.final p{
+    color: gray;
+    font-size: 0.5rem;
+    margin: 0 2vw;
+}
+
