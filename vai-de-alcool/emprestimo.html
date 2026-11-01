@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empréstimos</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/emprestimo.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Simulador de Empréstimos</h1>
+        <p class="resultado"></p>
+
+        <form action="#">
+          <p>
+            <label for="mensal">Renda Bruta Mensal(R$):</label>
+            <input
+              type="number"
+              step="1"
+              id="mensal"
+              placeholder="Digite sua renda bruta mensal"
+            />
+          </p>
+          <p>
+            <label for="valor">Valor do Empréstimo(R$):</label>
+            <input
+              type="number"
+              step="1"
+              id="valor"
+              placeholder="Digite o valor do empréstimo"
+            />
+          </p>
+          <p>
+            <label for="meses">Prazo do Empréstimo(meses)</label>
+            <input
+              type="number"
+              step="1"
+              id="meses"
+              placeholder="Digite o prazo em meses"
+            />
+          </p>
+
+          <button onclick="calculo()">Calcular Parcelas</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="js/emprestimo.js"></script>
+  </body>
+</html>
