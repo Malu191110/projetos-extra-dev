@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+/* === GERAL === */
+
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 134, 174) 0%,
+    rgb(255, 204, 221) 100%
+  );
+}
+
+/* === card === */
+
+h1 {
+  font-size: 1.2rem;
+  margin-top: 2vw;
+  font-family: "Fredoka", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 15px 15px 0 rgb(255, 176, 193);
+  background-color: white;
+  margin: 2vw 10vw;
+  padding: 2vw;
+}
+
+.nova-tarefa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nova-tarefa input {
+  flex: 3;
+  padding: 1vw;
+  font-size: 0.8rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.btn-add {
+    border-radius: 12px;
+    font-size: 0.8rem;
+  padding: 1vw;
+  margin: 0 1vw;
+  color: #ffff;
+  background-color: rgb(255, 158, 174);
+}
+
+.espaco-tarefa{
+    margin: 2vw 1vw;
+    background-color: #ff91bb;
+    border-radius: 12px;
+    padding: 2vw;
+} 

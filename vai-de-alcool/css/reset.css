@@ -4,6 +4,12 @@
   3. Reset all borders.
 */
 
+/* button */
+
+button{
+  cursor: pointer;
+}
+
 *,
 ::after,
 ::before,
