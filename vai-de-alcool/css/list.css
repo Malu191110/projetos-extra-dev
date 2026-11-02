@@ -16,6 +16,10 @@ body {
 
 /* === card === */
 
+header nav{
+  font-family: "Fredoka", sans-serif;
+}
+
 h1 {
   font-size: 1.2rem;
   margin-top: 2vw;

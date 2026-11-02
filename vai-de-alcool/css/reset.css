@@ -4,11 +4,29 @@
   3. Reset all borders.
 */
 
-/* button */
+/* === GERAL === */
+
+header nav{
+  text-align: right;
+  color: white;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li{
+  margin: 1vw 2vw;
+}
 
 button{
   cursor: pointer;
 }
+/* === COMEÇO DO RESET === */
 
 *,
 ::after,

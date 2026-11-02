@@ -25,6 +25,10 @@ main{
 
 /* === TOPO ===  */
 
+header nav{
+   background-color: green;
+}
+
 h1{
     text-align: center;
     font-size: 1rem;

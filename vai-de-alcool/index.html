@@ -4,38 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gasolina ou alcool</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Combustível</a></li>
+          <li><a href="emprestimo.html">Empréstimo</a></li>
+          <li><a href="list.html">To Do List</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-        <section>
-         
-    <h1>Álcool ou Gasolina?</h1>
-    <h2>Descubra qual combustível compensa mais</h2>
-    <p class="melhor"></p>
-     <div class="linha"></div>
-    <form action="#">
-         <p>
-        <label for="gasolina">Preço da Gasolina por litro(R$)</label>
-        <input type="number" step="0.1" id="gasolina" placeholder="Digite o preço da gasolina"/>
-       </p>
-       <p>
-        <label for="alcool">Preço do Álcool por litro(R$)</label>
-        <input type="number" step="0.1" id="alcool" placeholder="Digite o preço do álcool"/>
-       </p>
+      <section>
+        <h1>Álcool ou Gasolina?</h1>
+        <h2>Descubra qual combustível compensa mais</h2>
+        <p class="melhor"></p>
+        <div class="linha"></div>
+        <form action="#">
+          <p>
+            <label for="gasolina">Preço da Gasolina por litro(R$)</label>
+            <input
+              type="number"
+              step="0.1"
+              id="gasolina"
+              placeholder="Digite o preço da gasolina"
+            />
+          </p>
+          <p>
+            <label for="alcool">Preço do Álcool por litro(R$)</label>
+            <input
+              type="number"
+              step="0.1"
+              id="alcool"
+              placeholder="Digite o preço do álcool"
+            />
+          </p>
 
-       <button onclick="calculo()">Calcular</button>
-       <div class="linha"></div>
-       
-    </form>
-    <div class="final"> 
-      
-   <h3>Resultado</h3>
-    <p>Preencha os valores para ver qual combustível compensa mais</p>
-    </div>
-    </section>
+          <button onclick="calculo()">Calcular</button>
+          <div class="linha"></div>
+        </form>
+        <div class="final">
+          <h3>Resultado</h3>
+          <p>Preencha os valores para ver qual combustível compensa mais</p>
+        </div>
+      </section>
     </main>
     <script src="js/script.js"></script>
   </body>
