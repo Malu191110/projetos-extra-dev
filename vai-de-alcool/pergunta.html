@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pergunta.css" />
+</head>
+<body>
+<header>
+      <nav>
+        <ul>
+          <li><a href="pergunta.html">Batata-Quente</a></li>
+          <li><a href="index.html">Combustível</a></li>
+          <li><a href="emprestimo.html">Empréstimo</a></li>
+          <li><a href="list.html">To Do List</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <section class="container">
+        <h2 id="pergunta">Quanto é 6 × 7?</h2>
+        <input type="number" id="resposta" placeholder="Digite sua resposta">
+        <button onclick="verificarResposta()">OK</button>
+        <p id="mensagem"></p>
+        <h3><span id="tempo">30</span></h3>
+        <h3>Erros restantes: <span id="erros">3</span></h3>
+        <div class="barra-container">
+        <div id="barra"></div>
+        </div>
+        <button onclick="reiniciarJogo()">Reiniciar jogo</button>
+    </section> 
+    </main>
+    <script src="js/pergunta.js"></script>
+</body>
+</html>
